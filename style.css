@@ -1,0 +1,20 @@
+img{
+  max-width: 50pt;
+  max-height: 50pt;
+}
+a:link{
+  color: rgb(38, 33, 107);
+
+}
+a:visited{
+  color:rgb(50, 65, 153);
+}
+a:hover{
+  color:rgb(111, 124, 151);
+}
+a.current{
+  color:rgb(168, 168, 168);
+}
+a:active{
+  color:rgb(17, 17, 206);
+}
