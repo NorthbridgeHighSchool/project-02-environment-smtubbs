@@ -1,6 +1,18 @@
+
 img{
-  max-width: 50pt;
-  max-height: 50pt;
+  max-width: 1px;
+  max-height: 1px;
+}
+.odd{
+ float: right;
+  margin-left: 8pt;
+}
+.even{
+  float: left;
+  margin-right: 8pt;
+}
+p{
+  text-align: justify;
 }
 a:link{
   color: rgb(38, 33, 107);
