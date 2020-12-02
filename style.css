@@ -1,10 +1,38 @@
-
+a:link{
+  color: rgb(143, 139, 199);
+  padding: 5pt;
+  border: 1px solid #1f6128;
+  text-decoration: none;
+  background-color:  rgb(143, 139, 199); 
+  margin: 5px;
+  
+}
+a:visited{
+  color:rgb(199, 205, 236);
+  padding: 5pt;
+  border: 1px solid #1f6128;
+}
+a:hover{
+  color:rgb(111, 124, 151);
+  padding: 5pt;
+  border: 1px solid #1f6128;
+}
+a:active{
+  color:rgb(17, 17, 206);
+  padding: 5pt;
+  border: 1px solid #1f6128;
+}
+.current{
+  color:rgb(151, 151, 151);
+  padding: 5pt;
+  border: 1px solid #1f6128;
+}
 img{
   max-width: 1px;
   max-height: 1px;
 }
 .odd{
- float: right;
+  float: right;
   margin-left: 8pt;
 }
 .even{
@@ -12,21 +40,15 @@ img{
   margin-right: 8pt;
 }
 p{
-  text-align: justify;
+  text-align: justify; 
+  color:aliceblue;
 }
-a:link{
-  color: rgb(38, 33, 107);
-
+html{
+  background-color: #52539b;
 }
-a:visited{
-  color:rgb(50, 65, 153);
+h1{
+ color:aliceblue;
 }
-a:hover{
-  color:rgb(111, 124, 151);
-}
-a.current{
-  color:rgb(168, 168, 168);
-}
-a:active{
-  color:rgb(17, 17, 206);
+h2{
+ color:aliceblue;
 }
