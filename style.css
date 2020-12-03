@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
 a:link{
   color: rgb(143, 139, 199);
   padding: 5pt;
@@ -5,15 +7,19 @@ a:link{
   text-decoration: none;
   background-color:  rgb(143, 139, 199); 
   margin: 5px;
-  
 }
 a:visited{
-  color:rgb(199, 205, 236);
+  color:rgb(214, 219, 247);
   padding: 5pt;
   border: 1px solid #1f6128;
 }
 a:hover{
-  color:rgb(111, 124, 151);
+  color:rgb(171, 189, 228);
+  padding: 5pt;
+  border: 1px solid #1f6128;
+}
+a.current{
+  color:rgb(107, 107, 107);
   padding: 5pt;
   border: 1px solid #1f6128;
 }
@@ -22,14 +28,14 @@ a:active{
   padding: 5pt;
   border: 1px solid #1f6128;
 }
-.current{
-  color:rgb(151, 151, 151);
-  padding: 5pt;
-  border: 1px solid #1f6128;
+li{
+  margin-bottom: 20px;
 }
 img{
-  max-width: 1px;
-  max-height: 1px;
+  max-width: 300px;
+  max-height: 300px;
+  border: 3px solid #ffffff;
+  padding: 4pt;
 }
 .odd{
   float: right;
@@ -42,13 +48,21 @@ img{
 p{
   text-align: justify; 
   color:aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
 }
 html{
   background-color: #52539b;
 }
 h1{
- color:aliceblue;
+  color:aliceblue;
+  font-family: "Railway", serif;
+  font-size: 40pt;
+  font-weight: 600;
 }
 h2{
- color:aliceblue;
+  color:aliceblue;
+  font-family: "Railway", serif;
+  font-size: 25pt;
+  font-weight: 600;
 }
